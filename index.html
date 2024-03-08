@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <img src="chempals_logo.png" title = 'ChemPALS logo' alt="Your Logo" style="display: block; margin-left: auto; margin-right: auto; width: 25%;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Links for ChemPALS Events & Activities</title>
+    <title>Unofficial Website for ChemPALS</title>
     <style>
         body {
+            background: #ffffcc;
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 50px;
         }
-        .social-links a {
+        .links a {
             margin: 10px;
             display: inline-block;
             text-decoration: none;
@@ -18,25 +20,327 @@
             padding: 10px 20px;
             border-radius: 20px;
         }
-        .sitevisit { background-color: #1DA1F2; }
+        .instagram { background-color: rgb(255,100,2); }
         .eusa { background-color: #4267B2; }
-        .linkedin { background-color: #2867B2; }
-        .instagram { background-color: #E1306C; }
-        .github { background-color: #333; }
+        .sitevisit { background-color: #1DA1F2; }
+        .fourPmockpres { background-color: #2867B2; }
+        .CommitteeSignUp { background-color: #333; }
+        .employedInternships {background-color: #E1306C}
+
+        .timedlinks a {
+            margin: 10px;
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+
+        .table-centered {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        .hamburger-icon {
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background-color: black; /* Adjust color as needed */
+    position: relative;
+}
+
+.hamburger-icon::before,
+.hamburger-icon::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black; /* Adjust color as needed */
+    left: 0;
+}
+
+.hamburger-icon::before {
+    top: -6px;
+}
+
+.hamburger-icon::after {
+    bottom: -6px;
+}
+/*collapsible tab*/
+    .collapsible {
+        background-color: transparent;
+        color: black;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 15px;
+    }
+
+    .active, .collapsible:hover {
+        background-color: #555;
+    }
+
+    .content {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        text-align: left;
+        background-color: #f1f1f1;
+    }
+
     </style>
 </head>
-<body>
 
-    <h1>Connect With Me</h1>
-    <div class="social-links">
+<body>
+<div id="aboutUsSection">
+        <button class="collapsible"><span class="hamburger-icon"></span>
+            About Us</button>
+        <div class="content">
+            <p>ChemPALS (Chemistry Peer-Assisted Learning Scheme) is a new, unique, peer support programme designed to help Chemistry students achieve academic success, build lifelong friendships, and career Inspiration!</p>
+            <p>We kickstarted ChemPALS in September 2023 and are currently in a trialling phase to tailor the programme specifically for students within the School of Chemistry. In semester 1, we have organised study groups and literature review groups for students. In semester 2, on top of study groups, we’re organising regular drop-in sessions so you can ask questions to a peer, study on your own and get help from your lecturers!</p>
+            <p>ChemPALS is fully supported by staff at the School of Chemistry and has regular contact with industrial partners. We are currently working hard to seek opportunities to collaborate with chemical companies to roll out a range of activities and projects and you will hear from us more about it when the time comes!</p>
+        </div>
+    </div>
+
+<!-- this section is reserved for info regarding events e.g. site visits-->
+
+<div id="Events">
+        <button class="collapsible"><span class="hamburger-icon"></span>
+            Calendar</button>
+        <div class="content">
+            <p> Coming soon...</p>
+        </div>
+    </div>
+
+    <h1>Connect With Us</h1>
+    <div class="links">
         <!-- Replace '#' with your actual social media links -->
         <a href="https://www.instagram.com/euchempals/" class="instagram">Instagram</a>
-        <a href="https://forms.office.com/e/XZRTHfVxyT" class="sitevisit">SiteVisitInterest</a>
-        <a href="https://www.eusa.ed.ac.uk/activities/view/chempals" class="eusa">EUSAWebsite</a>
-<!--        <a href="#" class="linkedin">LinkedIn</a>-->
-<!--        <a href="#" class="instagram">Instagram</a>-->
-        <a href="https://github.com/GrignardReagent" class="github">GitHub</a>
+        <a href="https://www.eusa.ed.ac.uk/activities/view/chempals" class="eusa">ChemPALS on EUSA Website</a>
     </div>
+
+    <h1>Sign-Up Links</h1>
+    <div class="timedlinks">
+        <table class="table-centered">
+            <tr>
+                <th>Event</th>
+                <th>Sign-Up Deadline</th>
+                <th>Countdown</th>
+                <th>Comment</th>
+            </tr>
+<!--            <tr>-->
+<!--                <td><a href="https://forms.office.com/e/XZRTHfVxyT" class="sitevisit" data-deadline="2024-03-04T12:00:00">Site Visits: Expression of Interest</a></td>-->
+<!--                <td>12:00 PM, 4th March 2024</td>-->
+<!--                <td id="countdown1"></td>-->
+<!--                <td style="font-weight: bold; color: red;">For those who signed up - go back to the form and provide more information. Login with your Uni email. </td>-->
+<!--            </tr>-->
+            <tr>
+                <td><a href="https://forms.office.com/e/xktcA0KUgR" class="fourPmockpres" data-deadline="2024-03-20T12:00:00">4P Mock Presentation</a></td>
+                <td></td>
+                <td></td>
+                <td>No commitment here, just expression of interest!</td>
+            </tr>
+<!--            <tr>-->
+<!--                <td><a href="https://forms.office.com/e/Zb1i40efja" class="CommitteeSignUp" data-deadline="2024-02-28T12:00:00">ChemPALS Committee Recruitment</a></td>-->
+<!--                <td>12:00 PM, 28th February 2024</td>-->
+<!--                <td id="countdown3"></td>-->
+<!--                <td></td>-->
+<!--            </tr>-->
+        </table>
+
+    </div>
+    <h1>Employ.ed Internships *** Not with ChemPALS ***</h1>
+    <div class="timedlinks">
+        <table class="table-centered">
+            <tr>
+                <th>Role</th>
+                <th>Deadline</th>
+                <th>Countdown</th>
+
+            </tr>
+            <tr>
+                <td><a href="https://edin.ac/3UGLDna" class = "employedInternships" data-deadline="2024-03-13T23:59:00">Student Support Intern</a></td>
+                <td>March 13th 11.59pm</td>
+                <td id="countdown4"></td>
+            </tr>
+            <tr>
+                <td><a href="https://edin.ac/48zbUaq" class = "employedInternships" data-deadline="2024-03-13T23:59:00">Sustainability Intern</a></td>
+                <td>March 13th 11.59pm</td>
+                <td id="countdown5"></td>
+
+            </tr>
+            <tr>
+                <td><a href="https://edin.ac/48BMwRs" class = "employedInternships" data-deadline="2024-03-13T23:59:00">Analytical Chemistry Intern</a></td>
+                <td>March 13th 11.59pm</td>
+                <td id="countdown6"></td>
+            </tr>
+            <tr>
+                <td><a href="https://edin.ac/37IIR6S" class = "employedInternships" data-deadline="2024-03-13T23:59:00">Info about Employ.ed and list to all internships</a></td>
+                <td>See each post for details</td>
+                <td></td>
+            </tr>
+        </table>
+
+    </div>
+
+<section id="chempals-sessions">
+    <h1>ChemPALS Drop-in Sessions Schedule</h1>
+    <table  class="table-centered">
+        <tr>
+            <th>Week No.</th>
+            <th>Session Date & Time</th>
+            <th>Location</th>
+            <th>Comments</th>
+        </tr>
+<!--        <tr>-->
+<!--            <td>6</td>-->
+<!--            <td>Wednesday 28 Feb 13pm - 14pm</td>-->
+<!--            <td>T40</td>-->
+<!--            <td></td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>7</td>-->
+<!--            <td>Wednesday 06 March 12pm - 14pm</td>-->
+<!--            <td>T40</td>-->
+<!--            <td>Room booked but no facilitator</td>-->
+<!--        </tr>-->
+        <tr>
+            <td>8</td>
+            <td>Wednesday 13 March 13pm - 14pm</td>
+            <td>T40</td>
+            <td style="font-weight: bold; color: salmon;">Themed session: CVs & Applications. Come and find out about employ.ed internship in Student Support!</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Wednesday 20 March 13pm - 14pm</td>
+            <td>G69</td>
+            <td style="font-weight: bold; color: salmon;">Themed session: Theme TBC, any ideas let us know!</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Wednesday 27 March 13pm - 14pm</td>
+            <td>G69</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Wednesday 3 April 12pm - 14pm</td>
+            <td>G69</td>
+            <td>Room booked but no facilitator</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Wednesday 10 April 12pm - 14pm</td>
+            <td>T40</td>
+            <td>Room booked but no facilitator</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Wednesday 17 April 12pm - 14pm</td>
+            <td>T40</td>
+            <td>Room booked but no facilitator</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Wednesday 24 April 12pm - 14pm</td>
+            <td>T40</td>
+            <td>Room booked but no facilitator</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>Wednesday 1 May 12pm - 14pm</td>
+            <td>T40</td>
+            <td>Room booked but no facilitator</td>
+        </tr>
+
+    </table>
+    <p>For any concerns or to book another room for your study group, please email xyang34@ed.ac.uk</p>
+</section>
+
+
+<script>
+    // Javascript to make 'About Us' section collapsible
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    }
+</script>
+
+<script>
+    // JavaScript to highlight the link red once the deadline is reached.
+document.addEventListener('DOMContentLoaded', (event) => {
+    var links = document.querySelectorAll('.timedlinks a');
+    var currentDate = new Date();
+
+    links.forEach(function(link) {
+        var deadline = new Date(link.getAttribute('data-deadline'));
+
+        if (currentDate > deadline) {
+            var parentRow = link.closest('tr'); // Finds the closest <tr> ancestor of the link
+            if (parentRow) {
+                // Change the text color of each cell in the row to red
+                parentRow.querySelectorAll('td').forEach(td => td.style.color = 'red');
+            }
+        }
+    });
+});
+</script>
+
+<script>
+        // JavaScript to handle the countdown
+
+        // Function to update the countdown
+        function updateCountdown(targetId, deadline) {
+            var now = new Date().getTime();
+            var distance = deadline - now;
+            if (distance < 0) {
+                document.getElementById(targetId).innerHTML = "Expired";
+                return;
+            }
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById(targetId).innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+        }
+
+        // Set the date we're counting down to
+        var deadlines = {
+            'countdown1': new Date("2024-03-04T12:00:00").getTime(),
+            'countdown2': new Date("2024-03-04T12:00:00").getTime(),
+            'countdown3': new Date("2024-02-28T12:00:00").getTime(),
+            'countdown4': new Date("2024-03-13T23:59:00").getTime(),
+            'countdown5': new Date("2024-03-13T23:59:00").getTime(),
+            'countdown6': new Date("2024-03-13T23:59:00").getTime()
+            // Add more deadlines as needed
+        };
+
+        // Update the countdown every 1 second
+        var x = setInterval(function() {
+            for (var targetId in deadlines) {
+                updateCountdown(targetId, deadlines[targetId]);
+            }
+        }, 1000);
+    </script>
 
 </body>
 </html>
