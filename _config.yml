@@ -1,20 +1,21 @@
-title: Personal Website for Xi Yang (Ian)
+title: Xi Yang (Ian) AMRSC
 email: ian16yang@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  This is my personal website where I share my projects, portfolio, and blog posts about my journey in bioinformatics and computational chemistry.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://grignardreagent.github.io" # the base hostname & URL for your site
+description: >-
+  Portfolio for Xi Yang (Ian) AMRSC, a PhD student in computational biology at
+  the University of Edinburgh working on single-cell dynamics, stochastic
+  modelling, and machine learning for biological time series.
+baseurl: ""
+url: "https://grignardreagent.github.io"
+markdown: kramdown
 
-# Build settings
-theme: minima # Jekyll theme to use
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
 
 author:
-  name: Xi Yang (Ian)
-  bio: MSc Bioinformatics Student, Peer Support Student Coordinator and Student Ambassador @ University of Edinburgh | RSC Broadening Horizons Participant
+  name: Xi Yang (Ian) AMRSC
+  bio: PhD student in computational biology at the University of Edinburgh and PRIMED.
   twitter: Xi_Yang_Ian
   linkedin: https://www.linkedin.com/in/ianyangxi/
   github: https://github.com/GrignardReagent
-
-# Plugins (if any)
-#plugins:
-#  - jekyll-feed # example plugin, generates an RSS feed

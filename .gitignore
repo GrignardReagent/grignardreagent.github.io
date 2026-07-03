@@ -1,0 +1,35 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jekyll / GitHub Pages build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Ruby dependency caches
+.bundle/
+vendor/bundle/
+vendor/cache/
+Gemfile.lock
+
+# Node/browser tooling
+node_modules/
+.pw-browsers/
+playwright-report/
+test-results/
+
+# Local environment and temporary files
+.env
+.env.*
+*.log
+*.tmp
+*.bak

@@ -1,37 +1,36 @@
-- name: MSc Bioinformatics Research Project (Ongoing)
-  description: Exploring Drug Discovery Strategies for Metallo ß-lactamase (MBL) using Diffusion Models for Molecular Generation
-  link: https://pubs.acs.org/doi/full/10.1021/acs.jcim.3c00667
-  image_url: https://grignardreagent.github.io/bioinf_rp_v2.drawio.png
+- name: Stochastic Simulations
+  meta: 2025-2026 · PhD research code
+  description: Simulation, statistics, visualisation, and machine-learning pipelines for stochastic gene-expression time series, including telegraph-model SSA and SimCLR-style synthetic-to-real transfer.
+  link: https://github.com/GrignardReagent/SSA
+  cta: Open repository
+  image_url: https://grignardreagent.github.io/assets/tf-trace-overview.png
 
-- name: ProteoQuest (Completed)
-  description: An interactive tool built using Python for exploring protein sequences within the NCBI protein database. This project was developed as part of the Bioinformatics Programming and Systems Management (BPSM) In-Course Assessment 2 and obtained 90%.
+- name: CityPulse
+  meta: 2026 · Health data challenge
+  description: City Health Score work for small UK cities and towns using social-media sentiment analysis during HTB 2026.
+  link: https://github.com/GrignardReagent/HTB_2026
+  cta: Open repository
+
+- name: ProteoQuest
+  meta: Bioinformatics · Python
+  description: An interactive Python programme for exploring protein sequences in the NCBI protein database.
   link: https://github.com/GrignardReagent/ProteoQuest
+  cta: Open repository
 
-- name: Pipeline Development for the Dynamic Bioinformatics Analysis of Genomic Data (Completed)
-  description: A bioinformatics tool built entirely in Bash, for running fastqc, sequence alignment and bioinformatics analysis of a dynamic genomic dataset. This project was developed as part of the Bioinformatics Programming and Systems Management (BPSM) In-Course Assessment 1 and obtained 85%.
+- name: SARS-CoV-2 Docking Project
+  meta: Drug discovery · CADD
+  description: A self-led computational chemistry project comparing docking workflows for SARS-CoV-2 main protease inhibitor discovery.
+  link: https://github.com/GrignardReagent/SARS-CoV-2-Docking-Project
+  cta: Open repository
+
+- name: Dynamic Genomic Analysis Pipeline
+  meta: Bioinformatics · Bash
+  description: Bash workflow for FastQC, sequence alignment, and dynamic genomic-data analysis.
   link: https://github.com/GrignardReagent/ICA1
+  cta: Open repository
 
-- name: Drug Discovery Website Design (Under construction)
-  description: An interactive drug discovery website employing AI for generating novel drug molecules. This project is currently under construction.
-  link: https://github.com/GrignardReagent?tab=repositories
-
-- name: ChemPALS Website Design (Ongoing)
-  description: A website for ChemPALS, a peer-assisted learning scheme that I have led and developed for chemistry students at the University of Edinburgh. The development of this website is ongoing and more updates will be on it very soon!
+- name: ChemPALS
+  meta: Leadership · Peer support
+  description: Peer-assisted learning scheme and student-led support work in the School of Chemistry at the University of Edinburgh.
   link: https://chempals.github.io/
-
-- name: Object-Oriented Pipeline Development for a Smith Waterman Algorithm Programme (Completed but kept private for now)
-  description: A Python programme for the Smith Waterman algorithm, developed as part of the Bioinformatics Algorithm In-Course Assessment. This is kept private until marks are released.
-  link: https://github.com/GrignardReagent?tab=repositories
-
-- name: Modelling Antibiotic Impact on Ribosomal Dynamics in Escherichia coli (Completed but kept private for now)
-  description: A research project to model the impact of antibiotics on ribosomal dynamics in Escherichia coli, as part of the Practical Systems Biology (PSB) course. This is kept private until marks are released.
-  link: https://github.com/GrignardReagent?tab=repositories
-
-- name: Comparative Assessment of Docking software for Virtual Screening of covid-19 drug candidates (Completed but kept private for now)
-  description: A self-led research project to compare the performance of different docking software (AutoDock Vina, rDock and Flare) for use in the drug design against the main protease of SARS-CoV-2. This is kept private until all relevant materials are prepared.
-  link: https://github.com/GrignardReagent?tab=repositories
-
-- name: Optimisation of 2 Chemical Processes for Active Pharmaceutical Ingredients (APIs) (Completed)
-  description: A year-long research project to optimise the synthetic and recovery processes for two precious APIs. The combined effect of these projects exceeds 230,000 litres of chlorinated solvents in savings for the company. This project was conducted as part of my placement year at <a href="https://veranova.com/">Veranova</a> (previously <a href="https://matthey.com/">Johnson Matthey</a> Health, also known as MacFarlan Smith), a pharmaceutical company specialising in Controlled Drug (CD) manufacturing in the UK.
-  link: https://veranova.com/
-  
+  cta: Open site

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<main id="main" class="subpage">
+  <section class="section subpage-hero">
+    <div>
+      <p class="section-kicker">{{ page.kicker | default: page.title }}</p>
+      <h1>{{ page.hero_title | default: page.title }}</h1>
+    </div>
+    {% if page.hero_image %}
+      <img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_image_alt | default: page.title }}">
+    {% endif %}
+  </section>
+
+  <section class="section rich-section">
+    <div class="prose">
+      {{ content }}
+    </div>
+  </section>
+</main>

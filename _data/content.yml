@@ -1,0 +1,107 @@
+brand:
+  short: XY
+  label: Xi Yang
+
+hero:
+  status_line: PhD student in computational biology · University of Edinburgh · PRIMED
+  title: Machine learning for stochastic single-cell biology.
+  body: >-
+    I am Xi Yang (Ian), AMRSC. My PhD research uses stochastic modelling,
+    time-series analysis, self-supervised learning, and time-lapse microscopy to
+    characterise metabolic oscillations in single cells.
+  image: assets/ian-yang-headshot.jpg
+  image_alt: Xi Yang (Ian) headshot
+  tags:
+    - Single-cell dynamics
+    - Stochastic simulation
+    - Contrastive learning
+  actions:
+    - label: View research
+      url: "#research"
+      style: primary
+    - label: GitHub
+      url: https://github.com/GrignardReagent
+      style: secondary
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/ianyangxi/
+      style: secondary
+
+focus:
+  title: Current Focus
+  body: >-
+    My project sits between mathematical biology and machine learning: modelling
+    biological rhythms in baker's yeast, extracting information from noisy
+    transcription-factor localisation traces, and testing whether
+    simulation-trained encoders can transfer to real microscopy data.
+  facts:
+    - label: Research groups
+      value: Swain lab and Grima group
+    - label: PhD period
+      value: October 2024 - September 2028
+    - label: Methods
+      value: SSA, telegraph models, SimCLR, SVM, transformers
+
+research:
+  kicker: Research
+  title: From synthetic trajectories to living-cell signal interpretation.
+  body: >-
+    A contrastive encoder trained only on stochastic gene-expression simulations
+    can be reused on real yeast time-lapse microscopy traces, helping separate
+    transcription-factor identity and stress conditions without manual feature
+    design.
+  feature:
+    title: Label-free contrastive learning reads stress in yeast.
+    body: >-
+      The workflow starts with two-state telegraph model simulations generated
+      by SSA. SimCLR learns an embedding space from paired synthetic
+      trajectories, the projection head is discarded, and the frozen encoder is
+      evaluated on real transcription-factor localisation traces.
+    image: assets/tf-trace-overview.png
+    image_alt: Experimental transcription-factor localisation traces under glucose conditions
+    caption: Experimental TF localisation traces and benchmark classification results.
+    metrics:
+      - value: 79%
+        label: 6-class experimental accuracy
+      - value: 51%
+        label: 12-class experimental accuracy
+      - value: "1,024"
+        label: Sobol-sampled parameter sets
+  evidence:
+    - image: assets/yeast-microscopy.jpeg
+      image_alt: Budding yeast cells in a microfluidic device
+      caption: Time-lapse microscopy of fluorescently tagged yeast cells.
+      contain: false
+    - image: assets/simclr-embedding-tsne.png
+      image_alt: t-SNE embedding comparing catch22 features with SimCLR features
+      caption: Embedding spaces show clearer separation after SimCLR feature extraction.
+      contain: true
+    - image: assets/model-accuracy-comparison.png
+      image_alt: Model accuracy comparison for synthetic and experimental time-series classifiers
+      caption: Model comparisons across raw features, catch22, LSTM, transformers, and SimCLR pipelines.
+      contain: true
+
+projects_intro:
+  kicker: Selected Projects
+  title: Research software, modelling, and applied data science.
+
+writing_intro:
+  kicker: Writing And Recognition
+  title: Science communication, awards, and community work.
+
+contact:
+  kicker: Contact
+  title: Open to collaborations across computational biology, modelling, and scientific software.
+  body: >-
+    I am based in Edinburgh and especially interested in conversations around
+    single-cell time-series analysis, self-supervised learning for biology, and
+    reproducible research tooling.
+  email: ian16yang@gmail.com
+  qr_image: assets/linkedin-qr.jpeg
+  qr_alt: QR code linking to Xi Yang's LinkedIn profile
+  links:
+    - label: LinkedIn profile
+      url: https://www.linkedin.com/in/ianyangxi/
+    - label: GitHub profile
+      url: https://github.com/GrignardReagent
+    - label: X / Twitter
+      url: https://twitter.com/Xi_Yang_Ian

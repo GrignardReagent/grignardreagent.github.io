@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-        <!-- SOCIAL MEDIA STYLES -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <link rel="icon" type="image/png" href="flavicon1.jpg">
-    <title>{{ page.title }} | {{ site.title }}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace }}">
+  <meta name="theme-color" content="#0f172a">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace }}">
+  <meta property="og:image" content="{{ '/assets/ian-yang-headshot.jpg' | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="icon" type="image/jpeg" href="{{ '/flavicon1.jpg' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/stylesheet.css' | relative_url }}">
 </head>
 <body>
-    <header>
-<!--        this is the menu bar, it's on every page of the website-->
-        <div class="tab">
-            <a href="{{ '/' | relative_url }}">Home</a>
-            <a href="{{ '/about.html' | relative_url }}">About</a>
-            <a href="{{ '/portfolio.html' | relative_url }}">Portfolio</a>
-            <a href="{{ '/contact.html' | relative_url }}">Contact</a>
-        </div>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    </header>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.data.content.brand.label }} home">
+        <span class="brand-mark" aria-hidden="true">{{ site.data.content.brand.short }}</span>
+        <span>{{ site.data.content.brand.label }}</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <div class="nav-links" id="site-menu">
+        {% for item in site.data.navigation %}
+          <a href="{{ item.url | relative_url }}">{{ item.label }}</a>
+        {% endfor %}
+      </div>
+    </nav>
+  </header>
 
-    <main>
-        {{ content }}
-    </main>
+  {{ content }}
 
-    <footer>
-        <p style="font-size: smaller;">Copyright © {{ "now" | date: "%Y" }} {{ site.author.name }}</p>
-    </footer>
+  <footer class="site-footer">
+    <p>&copy; <span id="current-year">{{ "now" | date: "%Y" }}</span> {{ site.author.name }}.</p>
+    <p>Built for GitHub Pages.</p>
+  </footer>
+
+  <script src="{{ '/site.js' | relative_url }}"></script>
 </body>
 </html>

@@ -1,26 +1,16 @@
-- date: 2024-04-25
-  title: "I got my 5th Edinburgh Award!"
-  description: "What an honour it is to receive my Edinburgh Award (Leadership in Student Opportunities) at the Play Fair Library at the University of Edinburgh! The award is a recognition of the skills I have developed as a Peer Support Student Coordinator over the past year. For the completion of this award, I chose to build on my leadership, project management and problem-solving skills. The award also encouraged me to make a positive, sustainable impact on my community, which led me to conduct projects such as: 
-- Setting up a new peer support scheme, ChemPALS, within the School of Chemistry (https://lnkd.in/etxzFesg)
-- Organising site visits to 3 chemical companies for 40 students.
-Really loved and enjoyed my year in this role and I cannot thank my wonderful, fabulous, one-and-only line manager Jean O'Donoghue enough for her constant support throughout this journey!"
-  image_url: "https://grignardreagent.github.io/EA_4.jpg"
-  link: "https://www.linkedin.com/posts/ianyangxi"
+- date: 2026-07-02
+  title: Stochastic Simulations research code updated
+  description: Current public research software for stochastic gene-expression time series, telegraph-model SSA, SimCLR, and downstream time-series classification workflows.
+  image_url: https://grignardreagent.github.io/assets/tf-trace-overview.png
+  link: https://github.com/GrignardReagent/SSA
 
-- date: 2024-04-11
-  title: "Sunamp Site Visit"
-  description: "As part of my Student Experience Grant project, I organised a site visit to Sunamp, a company specialising in thermal heat storage technologies. My special thanks goes to Emily Goddard for hosting us!"
-  image_url: "https://grignardreagent.github.io/sunamp.jpg"
-  link: "https://www.linkedin.com/posts/ianyangxi_studentexperiencegrant-phasechangingmaterials-activity-7185955093274329088-1zrz?utm_source=share&utm_medium=member_desktop"
+- date: 2026-06-05
+  title: AIBIO-UK 2026 poster
+  description: From Simulation to Living Cell, showing label-free contrastive learning transfer from synthetic gene-expression simulations to real yeast transcription-factor localisation traces.
+  image_url: https://grignardreagent.github.io/assets/simclr-embedding-tsne.png
+  link: https://grignardreagent.github.io/#research
 
-- date: 2024-04-08
-  title: "Pharmaron Site Visit"
-  description: "It was such an honour to have the opportunity to organise a site visit for 9 enthusiastic students to Pharmaron as part of my Student Experience Grant project. Thank you Anna Lamieri for hosting us, and I'm very excited to extend further collaborations between Edinburgh and Pharmaron!"
-  image_url: "https://grignardreagent.github.io/pharmaron.jpg"
-  link: "https://www.linkedin.com/posts/ianyangxi_studentexperiencegrant-pharmaceuticalindustry-activity-7185651342311313409-E1T3?utm_source=share&utm_medium=member_desktop"
-
-- date: 2024-03-19
-  title: "Cambrex Site Visit"
-  description: "Thrilled to have organised a site visit to Cambrex as part of my Student Experience Grant project! Hosted 14 eager students, facilitating engaging discussions with industry experts on the future of careers in pharma. Thank you Natalie Kelk for hosting us!"
-  image_url: "https://grignardreagent.github.io/cambrex.jpg"
-  link: "https://www.linkedin.com/posts/ianyangxi_studentexperiencegrant-drugdevelopment-activity-7176252063088017408-QpHk?utm_source=share&utm_medium=member_desktop"
+- date: 2024-11-01
+  title: BALM preprint
+  description: Learning Binding Affinities via Fine-tuning of Protein and Ligand Language Models.
+  link: https://www.biorxiv.org/content/10.1101/2024.11.01.621495v1
