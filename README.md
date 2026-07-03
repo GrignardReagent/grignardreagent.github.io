@@ -2,7 +2,7 @@
 
 Personal GitHub Pages site for Xi Yang (Ian) AMRSC.
 
-The site is a lightweight Jekyll/GitHub Pages portfolio focused on computational biology, single-cell time-series modelling, stochastic simulations, self-supervised learning, selected software projects, writing, leadership, and contact links.
+The site is a lightweight Jekyll/GitHub Pages portfolio focused on computational biology, single-cell time-series modelling, stochastic simulations, self-supervised learning, writing, leadership, and contact links.
 
 ## Editing Content
 
@@ -10,11 +10,10 @@ Most content can be edited without touching layout HTML or CSS:
 
 - Homepage hero, research sections, contact details: `_data/content.yml`
 - Navigation labels and URLs: `_data/navigation.yml`
-- Projects: `_data/projects.yml`
 - Publications and awards: `_data/writing.yml`
 - About timeline: `_data/timeline.yml`
 - About page prose: `about.md`
-- Page titles/descriptions: front matter at the top of `index.md`, `about.md`, `portfolio.md`, `contact.md`, and `404.md`
+- Page titles/descriptions: front matter at the top of `index.md`, `about.md`, `contact.md`, and `404.md`
 
 Layout files live in `_layouts/` and `_includes/`. Visual styles live in `stylesheet.css`.
 

@@ -80,10 +80,6 @@ research:
       caption: Model comparisons across raw features, catch22, LSTM, transformers, and SimCLR pipelines.
       contain: true
 
-projects_intro:
-  kicker: Selected Projects
-  title: Research software, modelling, and applied data science.
-
 writing_intro:
   kicker: Writing And Recognition
   title: Science communication, awards, and community work.
@@ -95,13 +91,8 @@ contact:
     I am based in Edinburgh and especially interested in conversations around
     single-cell time-series analysis, self-supervised learning for biology, and
     reproducible research tooling.
-  email: ian16yang@gmail.com
-  qr_image: assets/linkedin-qr.jpeg
-  qr_alt: QR code linking to Xi Yang's LinkedIn profile
   links:
     - label: LinkedIn profile
       url: https://www.linkedin.com/in/ianyangxi/
     - label: GitHub profile
       url: https://github.com/GrignardReagent
-    - label: X / Twitter
-      url: https://twitter.com/Xi_Yang_Ian

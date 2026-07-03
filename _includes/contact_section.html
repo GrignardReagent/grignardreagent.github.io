@@ -10,10 +10,8 @@
     <p>{{ contact.body }}</p>
   </div>
   <div class="contact-card">
-    <a class="contact-link" href="mailto:{{ contact.email }}">{{ contact.email }}</a>
     {% for link in contact.links %}
       <a class="contact-link" href="{{ link.url }}">{{ link.label }}</a>
     {% endfor %}
-    <img src="{{ contact.qr_image | relative_url }}" alt="{{ contact.qr_alt }}">
   </div>
 </section>
